@@ -1,27 +1,39 @@
 $font-Heading: "Big Shoulders Display", cursive;
 $font-Body-Text: "Outfit", sans-serif;
 
-@mixin headingXL {
+@mixin heading {
   font-family: $font-Heading;
+  font-weight: 900;
+  color: $clr-Almost-Black;
+  text-transform: uppercase;
   font-size: 96px;
   line-height: 88px;
-  font-weight: 900;
+}
+@mixin headingXL {
+  @include heading();
+  font-size: 96px;
+  line-height: 88px;
 }
 @mixin headingL {
-  font-family: $font-Heading;
+  @include heading();
   font-size: 70px;
   line-height: 70px;
-  font-weight: 900;
 }
 @mixin headingM {
-  font-family: $font-Heading;
+  @include heading();
   font-size: 60px;
   line-height: 50px;
-  font-weight: 900;
 }
 @mixin headingS {
-  font-family: $font-Heading;
+  @include heading();
   font-size: 36px;
   line-height: 36px;
-  font-weight: 900;
+}
+@mixin bodyM {
+  font-size: 22px;
+  line-height: 32px;
+}
+@mixin bodyS {
+  font-size: 18px;
+  line-height: 28px;
 }

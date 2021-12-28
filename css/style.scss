@@ -1,10 +1,13 @@
 @import "base/reset";
 @import "base/colors";
 @import "base/typography";
+@import "components/hero";
+@import "components/your-day-section";
 
 main {
   font-family: $font-Body-Text;
+  color: $clr-Dark-Grey;
 }
-.hero__title {
-  @include headingS;
+.container {
+  padding: 0 1rem;
 }
