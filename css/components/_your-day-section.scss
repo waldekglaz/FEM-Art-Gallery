@@ -1,0 +1,25 @@
+.section-your-day {
+  margin-top: 120px;
+}
+.img-1 {
+  height: auto;
+  width: 100%;
+  min-width: 343px;
+  min-height: 320px;
+  margin-bottom: 25px;
+}
+.section__title {
+  @include sectionHeader();
+  margin-bottom: 21px;
+}
+.section__paragraph {
+  @include bodyS();
+  margin-bottom: 2rem;
+}
+.img-2 {
+  margin-bottom: 1rem;
+  width: 100%;
+  height: auto;
+  min-width: 343px;
+  min-height: 480px;
+}

@@ -13,23 +13,3 @@
   @include bodyS();
   margin-bottom: 2rem;
 }
-.link__text {
-  background-color: $clr-Almost-Black;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 24px;
-  font-family: $font-Heading;
-  text-transform: uppercase;
-  letter-spacing: 3.63636px;
-  text-decoration: none;
-  padding: 24px 32px;
-  color: #ffffff;
-}
-.icon {
-  background-color: $clr-Gold;
-  padding: 24px;
-}
-.btn-link {
-  display: flex;
-  text-decoration: none;
-}
