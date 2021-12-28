@@ -1,0 +1,10 @@
+@import "base/reset";
+@import "base/colors";
+@import "base/typography";
+
+main {
+  font-family: $font-Body-Text;
+}
+.hero__title {
+  @include headingS;
+}
