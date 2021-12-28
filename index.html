@@ -19,7 +19,11 @@
 <body>
   <main>
     <header class="hero">
-      <img src="starter-code/assets/mobile/image-hero.jpg" alt="people in art gallery" class="hero__img">
+      <picture>
+        <source srcset="starter-code/assets/tablet/image-hero.jpg" media="(min-width:768px)">
+        <source srcset="starter-code/assets/desktop/image-hero.jpg" media="(min-width:1024px)">
+        <img class="img hero__img" src="starter-code/assets/mobile/image-hero.jpg" alt="people in the art gallery">
+      </picture>
       <div class="hero__content container">
         <h1 class="hero__title">Modern<br> Art Gallery</h1>
         <div class="hero__text">The arts in the collection of the Modern Art Gallery all started
@@ -29,31 +33,38 @@
           <div class="link__text">Our Location</div><img class="icon" src="starter-code/assets/icon-arrow-right.svg"
             alt="">
         </a>
-
       </div>
-
-
     </header>
     <section class="section section-your-day container">
-      <img src="starter-code/assets/mobile/image-grid-1.jpg" alt="" class="section__img img-1">
+      <picture class="container">
+        <source media="(min-width: 768px)" srcset="starter-code/assets/tablet/image-grid-1.jpg">
+        <source media="(min-width:1024px)" srcset="starter-code/assets/desktop/image-grid-1.jpg">
+        <img src="starter-code/assets/mobile/image-grid-1.jpg" alt="art gallery" class="img--square">
+      </picture>
+
       <div class="section__text-wrapper">
         <h2 class="section__title">Your day<br> at the gallery</h2>
         <p class="section__paragraph">Wander through our distinct collections and find new insights about
           our artists. Dive into the details of their creative process.</p>
       </div>
-      <img src="starter-code/assets/mobile/image-grid-2.jpg" alt="" class="section__img img-2">
+      <img src="starter-code/assets/mobile/image-grid-2.jpg" alt="" class="section__img img-2 ">
       <img src="starter-code/assets/mobile/image-grid-3.jpg" alt="" class="section__img img-3">
-      <div class="section__text-wrapper">
-        <h2 class="section__title">Come &amp; be inspired</h2>
+      <div class="section__text-wrapper section__text-wrapper--black">
+        <h2 class="section__title section__title--white">Come &amp; be inspired</h2>
         <p class="section__paragraph">We’re excited to welcome you to our gallery and see how our collections
           influence you.</p>
       </div>
     </section>
     <footer class="footer">
-      <h3 class="footer__heading">Modern Art Gallery</h3>
+      <h3 class="footer__heading">Modern<br> Art Gallery</h3>
       <div class="footer__text">
         The Modern Art Gallery is free to all visitors and open seven days a week
         from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+      </div>
+      <div class="socials">
+        <a class="social__link" href="#"><img src="starter-code/assets/icon-facebook.svg" alt=""></a>
+        <a class="social__link" href="#"><img src="starter-code/assets/icon-instagram.svg" alt=""></a>
+        <a class="social__link" href="#"><img src="starter-code/assets/icon-twitter.svg" alt=""></a>
       </div>
     </footer>
   </main>

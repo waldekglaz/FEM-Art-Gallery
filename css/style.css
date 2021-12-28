@@ -30,14 +30,13 @@
 }
 
 .section-your-day {
-  margin-top: 120px;
+  margin: 120px 0;
 }
 
-.img-1 {
-  height: auto;
-  width: 100%;
+.img--square {
   min-width: 343px;
   min-height: 320px;
+  width: 100%;
   margin-bottom: 25px;
 }
 
@@ -63,6 +62,40 @@
   height: auto;
   min-width: 343px;
   min-height: 480px;
+}
+
+.section__text-wrapper--black {
+  background-color: #151515;
+  color: #fff;
+  padding: 48px 24px 47px;
+}
+
+.section__title--white {
+  color: #fff;
+}
+
+.footer {
+  background-color: #151515;
+  color: #fff;
+  padding: 48px 32px;
+}
+
+.footer__heading {
+  font-size: 20px;
+  font-family: "Big Shoulders Display", cursive;
+  margin-bottom: 38px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.footer__text {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 58px;
+}
+
+.social__link {
+  margin-right: 20px;
 }
 
 .link__text {
